@@ -14,7 +14,6 @@ Import the library at your applications entrypoint via require, import, or by us
 -   `const dntHelper = require('@mozmeao/dnt-helper')`
 -   `const dntHelper = window.dntHelper`
 
-
 ## Further Documentation
 
 -   [Building the NPM package](docs/#building-the-npm-package)

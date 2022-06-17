@@ -62,6 +62,6 @@ var dntHelper = function (dnt, ua) {
     return dntStatus === 'Enabled' ? true : false;
 };
 
-console.log(dntHelper())
+console.log(dntHelper());
 
 module.exports = dntHelper;
