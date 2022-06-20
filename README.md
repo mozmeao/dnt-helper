@@ -2,7 +2,7 @@
 
 ### What does it do?
 
-A helper that returns true or false based on whether doNotTrack is enabled on the browser.
+A helper that returns true or false based on whether `doNotTrack` is enabled on the browser. For more general information on DNT, visit [MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/DNT).
 
 ### How to install and use
 
