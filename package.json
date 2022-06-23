@@ -10,7 +10,8 @@
         "prepublishOnly": "npm run build",
         "pretest": "npm run build",
         "test": "./node_modules/karma/bin/karma start tests/karma.conf.js",
-        "readme": "doctoc --title \"### Contents\" --maxlevel 2 docs/README.md"
+        "readme": "doctoc --title \"### Contents\" --maxlevel 2 docs/README.md",
+        "start": "http-server ./demo"
     },
     "repository": {
         "type": "git",
@@ -47,5 +48,8 @@
     "browserslist": [
         "defaults",
         "IE 8"
-    ]
+    ],
+    "dependencies": {
+        "http-server": "^14.1.1"
+    }
 }
