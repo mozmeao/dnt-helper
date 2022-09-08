@@ -2,7 +2,7 @@
 
 ## Features
 
-- Add demo pages and demo preview
+-   Add demo pages and demo preview
 
 ## Bug Fixes
 
