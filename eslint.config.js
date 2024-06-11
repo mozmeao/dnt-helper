@@ -64,7 +64,12 @@ module.exports = [
     js.configs.recommended,
     eslintConfigPrettier,
     {
-        ignores: ['dist/**/*.js', 'src/package/**/*.js', 'demo/index.js']
+        ignores: [
+            'dist/**/*.js',
+            'src/package/**/*.js',
+            'demo/index.js',
+            'tests/dist/**/*.js'
+        ]
     },
     {
         files: ['src/**/*.js', 'demo/**/*.js'],
@@ -100,7 +105,8 @@ module.exports = [
         files: [
             'eslint.config.js',
             'webpack.config.js',
-            'webpack.demo.config.js'
+            'webpack.demo.config.js',
+            'webpack.test.config.js'
         ],
         languageOptions: {
             ecmaVersion: 'latest',
