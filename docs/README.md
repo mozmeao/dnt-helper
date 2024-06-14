@@ -15,8 +15,8 @@
 [readme]: https://github.commozmeao/dnt-helper/blob/master/README.md
 [changelog]: https://github.com/mozmeao/dnt-helper/blob/master/CHANGELOG.md
 [webpack]: https://webpack.js.org/
-[karma]: http://karma-runner.github.io/latest/index.html
 [jasmine]: https://jasmine.github.io/
+[jasmine-browser-runner]: https://jasmine.github.io/setup/browser.html
 [semver]: https://semver.org/
 
 # Building the NPM package
@@ -31,7 +31,7 @@ This will install dependencies, lint JS files, and then build the package conten
 
 # Running tests
 
-To perform the package build process above and then run front-end JS tests using [Karma Test Runner][karma] and [Jasmine][jasmine] against the processed files:
+To perform the package build process above and then run front-end JS tests using Jasmine[jasmine] and Jasmine Browser Runner[jasmine-browser-runner] against the processed files:
 
 ```
 npm run test
